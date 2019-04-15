@@ -1,0 +1,58 @@
+April 13-14 2019
+
+Course Objectives: 
+ 
+•  Perform and understand both common and advanced web attacks
+• Learn how bug bounty hunters perform quick and effective reconnaissance
+• Manually attack applications with and without the use of tools
+• Fuzz inputs for potential injection points
+• Find critical vulnerabilities in applications 
+• Understand vulnerabilities in newer languages/frameworks such as NodeJS and Express
+• Training Syllabus
+
+
+Day 1 - Primer 
+ 
+•  Recon/Spidering
+• Attacking XSS, Polyglots, and Blind XSS 
+• Cross-Site Request Forgery 
+• Integer Underflows 
+• Insecure Direct Object Reference 
+• Local File Inclusions and Server Side Request Forgery 
+• Manual SQL Injections 
+• Remote Code Execute with Images
+
+
+Day 2 - Advanced Attacks 
+ 
+•  XML eXternal Entities (XXE) and OOB
+• DOM XSS
+• Deserialization Attacks 
+• NoSQL
+• Template Injection
+• Node.JS Attacks
+• Cloud Issues 
+• API Attacks and Vulnerabilities
+
+Upon Completion of this training, attendees will know:
+
+•  How to perform a web application penetration test
+• How to use proxy tools such as Burp Suite 
+• How to manually identify vulnerabilities 
+• How to become a bug bounty hunter
+• How to protect your own web applications from attackers
+ 
+Attendees should bring:
+•  Laptop with administrator access
+• Laptop with network connectivity and dongles
+• Laptop capable of running two virtual machines simultaneously using either VMware Workstation or Player or Fusion (for OS X)
+• Laptop with 30GB of free disk spaces
+• You must have ability to disable the host firewall (Windows firewall or other third party firewall) and antivirus running on your desktop... 
+• A passion to learn!
+
+Pre-requisites for attendees: 
+•  Basic security concepts 
+• Basic GNU/Linux command line
+• Understanding of how web protocols communicate
+
+For more information, check out https://securepla.net/training.
