@@ -1,0 +1,49 @@
+Below is a small collection of other resources or VMs to perform testing on:
+
+Download the Node Chat App from Class:
+VM Hosted Here: http://thehackerplaybook.com/get.php?type=csk-web 
+-Boot up and log into the VM
+-When the VM is fully booted, it should show you the current IP address of the application. You do not need to log into the VM nor is the password provided. It’s up to you to break into the application.
+-Since this is a web application hosted on your own system, let's make a hostname record on our attacker Kali system:
+--On our attacker Kali VM, let's edit our host file to point to our vulnerable application to reference the application by hostname versus by IP:
+--gedit /etc/hosts
+--Add the following line with the IP of your vulnerable application:
+--[IP Address of Vuln App] chat
+-Now, go to your browser in Kali and go to http://chat:3000/. If everything worked, you should be able to see the NodeJS Custom Vuln Application.
+
+Metasploitable 3
+https://github.com/rapid7/metasploitable3
+
+OWASP Juice Shop
+https://juice-shop.herokuapp.com/#/
+
+OWASP Broken Web Applications Project
+http://sourceforge.net/projects/owaspbwa/files/
+
+CloudGoat
+Rhino Security Labs' "Vulnerable by Design" AWS infrastructure setup tool
+https://github.com/RhinoSecurityLabs/cloudgoat
+
+Acunetix Vulnerable Sites
+vulnweb.com/
+
+Cenzic crackmebank
+http://crackme.cenzic.com/
+
+Firing Range - Google App Engine
+https://public-firing-range.appspot.com/
+
+OWASP NodeGoat	
+http://nodegoat.herokuapp.com/login
+
+Damn Vulnerable Web App
+https://github.com/ethicalhack3r/DVWA/archive/master.zip
+
+Badstore
+https://www.vulnhub.com/entry/badstore-123,41/
+
+Peter Kim's RSS Feed:
+http://www.securepla.net/rss.php
+
+Great walk through of a real life hack:
+http://pastebin.com/raw/0SNSvyjJ
